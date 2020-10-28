@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "RWod",
+    "description": "Random workouts with power, strength, accessory movements, and more",
+    "slug": "RWod",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Group 4.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,7 +18,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+       "bundleIdentifier": "com.dandramoss.RWod",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.dandramoss.RWod",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
