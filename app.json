@@ -2,7 +2,7 @@
   "expo": {
     "name": "RWod",
     "description": "Random workouts with power, strength, accessory movements, and more",
-    "slug": "RWod",
+    "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
