@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RWod",
-    "description": "Random workouts with power, strength, accessory movements, and more",
+    "description": "A collection of daily workouts with power, strength, and accessory movements. Complete multi-joint workouts, single-joint, bodyweight, powerlifting, Olympic lifting, metabolic conditioning and core training.",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",

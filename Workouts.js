@@ -4,7 +4,7 @@ const workouts = [
     {
         power: {
             movement: 'Hang Power Snatch',
-            repScheme: '6x3'
+            repScheme: '6x 3'
         },
         strength: {
             movement: 'Pause Bench Press',
@@ -28,22 +28,22 @@ const workouts = [
     {
         power: {
             movement: 'Hang Power Squat Cleans',
-            repScheme: '6x3'
+            repScheme: '5x 3'
         },
         strength: {
             movement: 'KB Push Press',
-            repScheme: '4x6 - moderately heavy weight'
+            repScheme: '4x 6 - moderately heavy weight'
         },
         superSet: {
             movement1: 'Front-rack Walking Lunges',
-            repScheme1: '3x12 steps - moderate weight',
+            repScheme1: '3x 12 steps - moderate weight',
             movement2: 'DB Box Shoulders',
-            repScheme2: '3x10 - moderately light weight'
+            repScheme2: '3x 10 - moderately light weight'
         },
         metcon: {
-            movement: '8 Front Squats - 10 cal row -  6 TTB (toes to bar)',
-            repScheme: '4min AMRAP - rest 4min - 5min AMRAP - rest 3min - 6min AMRAP',
-            weight: '95/55'
+            movement: 'On and Off',
+            repScheme: '8 Front Squats - 10 cal row -  6 TTB (toes to bar)',
+            weight: '5min AMRAP/3min OFF - 4min AMRAP/2min OFF - 5min AMRAP'
         },
         finisher: {
             movement: '100 ab-mat sit-ups - 5min cap - 5 Vups every 10 reps'
@@ -52,25 +52,25 @@ const workouts = [
     {
         power: {
             movement: 'Clean and Jerks',
-            repScheme: '4x2'
+            repScheme: '4x 2'
         },
         strength: {
             movement: 'Front Squats',
-            repScheme: '4x4 - HEAVY'
+            repScheme: '4x 4 - HEAVY'
         },
         superSet: {
             movement1: 'Pull-ups',
-            repScheme1: '3x12 OR 3x8 w/weight',
+            repScheme1: '3x 12',
             movement2: 'Good Mornings',
-            repScheme2: '3x12'
+            repScheme2: '3x 12'
         },
         metcon: {
-            movement: '60 GTOH - 60 C2B Pull-ups - 60 Burpees',
-            repScheme: 'Chipper - complete all reps before going to next movement',
-            weight: '95/55'
+            movement: 'Chipper Jones',
+            repScheme: '60 GTOH - 60 C2B Pull-ups - 60 Burpees',
+            weight: 'chipper'
         },
         finisher: {
-            movement: 'accumulate 1000m farmers carry'
+            movement: 'accumulate 1000m banded farmers carry'
         }
     },
     {
@@ -80,45 +80,45 @@ const workouts = [
         },
     strength: {
             movement: 'Back Squats',
-            repScheme: '4x6'
+            repScheme: '4x 6'
         },
     superSet: {
             movement1: 'GHR (glute hame raises)',
-            repScheme1: '3x8',
+            repScheme1: '3x 8',
             movement2: 'BB/KB/DB row',
-            repScheme2: '3x12'
+            repScheme2: '3x 12'
         },
     metcon: {
-            movement: 'Ascending Deadlifts - 6 TTB',
-            repScheme: '10rds - reps = round (rd1 = 1 rep, rd2 = 2 reps...) - 6 TTB each round',
-            weight: 'start @ 55% (DL weight increases every round)'
+            movement: 'Watch Yourself!',
+            repScheme: 'ASCENDING Deadlifts - 6 TTB',
+            weight: '10rds; reps = round (rd1 = 1 DL, rd2 = 2 DL...) - 6 TTB each round'
         },
     finisher: {
-            movement: '3-5 rds - 8 weighted deadbugs, 8 weighted toe touches, 8 weighted vups'
+            movement: '3-5 rds of 8 weighted deadbugs, 8 weighted toe touches, 8 weighted vups'
         }
     },
     {
         power: {
             movement: 'Front-Squat',
-            repScheme: '10x3 EMOM'
+            repScheme: '10x 3 EMOM'
         },
         strength: {
             movement: 'Push Press',
-            repScheme: '4x6ea'
+            repScheme: '4x 6ea'
         },
         superSet: {
-            movement1: '1/2 Kneeling landmind press',
-            repScheme1: '3x12ea',
+            movement1: '1/2 Kneeling landmine press',
+            repScheme1: '3x 12ea',
             movement2: 'Step-ups',
-            repScheme2: '3x8ea'
+            repScheme2: '3x 8ea'
         },
         metcon: {
-            movement: '15 KB Thrusters - 30 DUs',
-            repScheme: '20min AMRAP',
-            weight: ''
+            movement: 'Uh Workout',
+            repScheme: '15 KB Thrusters - 30 DUs',
+            weight: '20min AMRAP'
         },
         finisher: {
-            movement: 'accumulate 1000m farmers carry'
+            movement: 'accumulate 3-5min deep squat holds'
         }
 
     },
@@ -129,114 +129,114 @@ const workouts = [
         },
         strength: {
             movement: 'Box Squat',
-            repScheme: '4x5ea'
+            repScheme: '4x 5ea'
         },
         superSet: {
             movement1: 'Bar/ring dips',
-            repScheme1: '3x6-8',
-            movement2: 'Step-ups',
-            repScheme2: '3x8ea'
+            repScheme1: '3x 6-8',
+            movement2: 'Step-Overs',
+            repScheme2: '3x 8ea'
         },
         metcon: {
-            movement: '12 Handstand PUs - 10 Cal Assault Bike',
-            repScheme: '5rds for time',
-            weight: ''
+            movement: 'On Your Own',
+            repScheme: '12 Handstand PUs - 10 Cal Assault Bike',
+            weight: '5rds for time'
         },
         finisher: {
-            movement: 'accumulate 3-5min hollow holds'
+            movement: '40ea IR/ER rotations + press (slow, controlled)'
         }
     },
     {
         power: {
             movement: 'Snatch-Grip Clean Pulls',
-            repScheme: '5x3'
+            repScheme: '5x 3'
         },
         strength: {
             movement: 'Snatch Grip Deadlifts',
-            repScheme: '4x6ea'
+            repScheme: '4x 6ea'
         },
         superSet: {
-            movement1: '4 sec negative pull-ups',
-            repScheme1: '3x6-8',
+            movement1: '4sec negative pull-ups',
+            repScheme1: '3x 6-8',
             movement2: 'Band pull-throughs',
-            repScheme2: '3x15'
+            repScheme2: '3x 15'
         },
         metcon: {
-            movement: '8 Heavy KB Swings -  6 Burpess Box Jump Overs',
-            repScheme: '12min AMRAP',
-            weight: ''
+            movement: 'Jump up, Jump up!',
+            repScheme: '8 Heavy KB Swings -  6 Burpess Box Jump Overs',
+            weight: '12min AMRAP'
         },
         finisher: {
-            movement: 'Single Arm KB Holds - while standing, hold HEAVY KB in hand on 1 side for max time; switch side'
+            movement: 'Single Arm KB Holds - while standing, hold HEAVY KB in hand on 1 side for max time; switch sides'
         }
     },
     {
         power: {
-            movement: 'SA DB/KB Snatch',
-            repScheme: '5x4ea'
+            movement: 'DB/KB Snatch',
+            repScheme: '5x 5ea'
         },
         strength: {
             movement: 'Deadlifts',
             repScheme: 'build to near max single'
         },
         superSet: {
-            movement1: 'Bent over Row',
-            repScheme1: '3x10',
+            movement1: 'Pendlay Row',
+            repScheme1: '3x 10',
             movement2: 'Reverse Lunges',
-            repScheme2: '3x8ea'
+            repScheme2: '3x 8ea'
         },
         metcon: {
             movement: '15 Double KB Snatch - 250m Row',
-            repScheme: '10min ON/5min OFF - 25 Total Min',
-            weight: ''
+            repScheme: '15 Double KB Snatch - 250m Row',
+            weight: '10min ON / 5min OFF/ 10min ON'
         },
         finisher: {
-            movement: 'Hip thrusts 3-4 sets of 12-15'
+            movement: 'Hip thrusts; 3-4 sets of 12-15'
         }
     },
     {
         power: {
             movement: 'Drop OH Squat',
-            repScheme: '8x3'
+            repScheme: '8x 3'
         },
         strength: {
             movement: 'Bench Press',
-            repScheme: '4x3 @ 85%'
+            repScheme: '4x 3'
         },
         superSet: {
             movement1: 'SL Toe Elevated RDL',
-            repScheme1: '3x12ea',
+            repScheme1: '3x 12ea',
             movement2: 'KB/DB Floor Press',
-            repScheme2: '3x10'
+            repScheme2: '3x 10'
         },
         metcon: {
-            movement: 'OH Squats - Muscle Ups - Box Jumps',
-            repScheme: '21-15-9',
-            weight: '105/65'
+            movement: 'Not as Bad',
+            repScheme: 'OH Squats - Dips - Box Jumps',
+            weight: '21-15-9'
         },
         finisher: {
-            movement: '3rds - 100m heavy carries '
+            movement: '3rds - 15 Bent Over Lateral Raises'
         }
     },
     {
         power: {
             movement: 'Clean Series (clean pull, hang clean, power clean = 1)',
-            repScheme: '5x2 - Ascending E2OM'
+            repScheme: '5x 2 - Ascending E2OM'
         },
         strength: {
             movement: 'Speed Bench Press',
-            repScheme: '8x3 EMOM'
+            repScheme: '8x 3 EMOM'
         },
         superSet: {
-            movement1: 'Deep Pushups',
-            repScheme1: '3x12',
+            movement1: 'Deep Pushups (hands and feet elevated)',
+            repScheme1: '3x 12',
             movement2: 'Band Pull-aparts',
-            repScheme2: '3x15'
+            repScheme2: '3x 15'
         },
         metcon: {
-            movement: '15 Hang Power Cleans - 9 Burpees Over Bar',
-            repScheme: '6 rounds for time',
-            weight: '115/85'
+            movement: 'No Time to Play',
+            repScheme: '15 Hang Power Cleans - 9 Burpees Over Bar',
+            weight: '6 rounds for time'
         },
         finisher: {
             movement: 'Accumulate 200 banded shrugs'
@@ -244,26 +244,26 @@ const workouts = [
     },
     {
         power: {
-            movement: 'Plyo Pushups',
-            repScheme: '5x12'
+            movement: '3 Position Pushups (Elevated, Incline, Plyo)',
+            repScheme: '4x 5ea Position'
         },
         strength: {
             movement: 'Split Squat + Iso Holds',
-            repScheme: '4x20 + :60'
+            repScheme: '4x 20 + :30'
         },
         superSet: {
             movement1: '3-Way Lunges',
-            repScheme1: '3x8ea',
+            repScheme1: '3x 8ea',
             movement2: 'Dips',
-            repScheme2: '3x12'
+            repScheme2: '3x 12'
         },
         metcon: {
-            movement: '12 Med-ball pounds - 60 DUs',
-            repScheme: '16min AMRAP',
-            weight: ''
+            movement: 'This Should be Fun',
+            repScheme: '12 Med-ball pounds - 60 DUs',
+            weight: '16min AMRAP'
         },
         finisher: {
-            movement: '15-12-9-12-15 Seated z-press/pull ups'
+            movement: '15-12-9-12-15 Seated Z-press/pull ups'
         }
     },
     {
@@ -273,18 +273,18 @@ const workouts = [
         },
         strength: {
             movement: 'Pause Front Squat',
-            repScheme: '4x4'
+            repScheme: '4x 4'
         },
         superSet: {
-            movement1: 'Standing Alt DB Press',
-            repScheme1: '3x8ea',
+            movement1: '1/2 Kneeling Row + SA DB Press',
+            repScheme1: '3x 8ea',
             movement2: 'High Step-Ups',
-            repScheme2: '3x6ea'
+            repScheme2: '3x 6ea'
         },
         metcon: {
-            movement: 'Devils Press - DB Box Step Overs',
-            repScheme: '21-15-9',
-            weight: '45/25'
+            movement: 'Press Over',
+            repScheme: 'Devils Press - DB Box Step Overs',
+            weight: '21-15-9'
         },
         finisher: {
             movement: '3rds - 10 Goblet squats/50ft double OH farmers walks'
@@ -301,14 +301,14 @@ const workouts = [
         },
         superSet: {
             movement1: 'Seated Goodmornings',
-            repScheme1: '3x15',
+            repScheme1: '3x 15',
             movement2: 'Box Jumps',
-            repScheme2: '3x5'
+            repScheme2: '3x 5'
         },
         metcon: {
-            movement: '8 Heavy Deadlifts - 12 STOH - 15 Box Jumps',
-            repScheme: '3 rounds for time',
-            weight: ''
+            movement: 'Go Hard!',
+            repScheme: '8 Heavy Deadlifts - 12 STOH - 15 Box Jumps',
+            weight: '3 rounds for time'
         },
         finisher: {
             movement: 'Ring Rows 4x20'
@@ -317,22 +317,22 @@ const workouts = [
     {
         power: {
             movement: 'Power Cleans',
-            repScheme: '5x3'
+            repScheme: '5x 3'
         },
         strength: {
             movement: 'Heavy Hip Thrusts',
-            repScheme: '3x8'
+            repScheme: '3x 8'
         },
         superSet: {
             movement1: 'Bodyweight Cossak Squat',
-            repScheme1: '3x8ea',
+            repScheme1: '3x 8ea',
             movement2: 'Weighted Pull-ups',
             repScheme2: '3x6'
         },
         metcon: {
             movement: '8 KB Cleans - 12 TTB - 50ft HandStand Walks',
-            repScheme: '5min AMRAP - 3min off - 5min AMRAP - 3min off - 5min AMRAP',
-            weight: ''
+            repScheme: '8 KB Cleans - 12 TTB - 50ft HandStand Walks',
+            weight: '5min AMRAP / 3min off / 5min AMRAP / 3min off / 5min AMRAP'
         },
         finisher: {
             movement: '5rds 10 Back Extensions/10 RDLs'
@@ -378,9 +378,9 @@ const workouts = [
             repScheme2: '3x 20'
         },
         metcon: {
-            movement: '1000m Row buy-in then... ',
-            repScheme: '5rds of 60 Air Squats - 10 HSPUs',
-            weight: ''
+            movement: 'Head Strong',
+            repScheme: '1000m Row directly into... ',
+            weight: '5rds of 60 Air Squats - 10 HSPUs'
         },
         finisher: {
             movement: '3x 10ea 1/2 Kneeling Palloff Press - 40 Band Tri Pull-downs'
@@ -402,7 +402,7 @@ const workouts = [
             repScheme2: '4x 20'
         },
         metcon: {
-            movement: '3 Rope Climbs - 100ft Farmers Carry',
+            movement: '3 Rope Climbs - 100ft Banded Farmers Carry',
             repScheme: '10rds',
             weight: ''
         },
@@ -426,12 +426,12 @@ const workouts = [
             repScheme2: '4x 20ea'
         },
         metcon: {
-            movement: '5ea KB snatch - 10 KB Swings - 10 Bottoms up KB Goblet Squats',
-            repScheme: '8-10rds',
-            weight: 'same weight throughout'
+            movement: '',
+            repScheme: '5 KB Snatches - 10 KB Swings - 15 Bottoms up KB Goblet Squats',
+            weight: '8-10rds - same weight throughout'
         },
         finisher: {
-            movement: 'Run 15 - 20min'
+            movement: 'Run, Bike, Row for 15 - 20min'
         }
     },
     {
@@ -493,7 +493,7 @@ const workouts = [
         },
         superSet: {
             movement1: 'Step-up to Reverse lunge',
-            repScheme1: '3x 6 + 6',
+            repScheme1: '3x 6 + 6ea',
             movement2: 'Lat Pull-downs',
             repScheme2: '3x 8'
         },
@@ -547,8 +547,8 @@ const workouts = [
         },
         metcon: {
             movement: 'Diane',
-            repScheme: '21-15-9 -- Deadlifts - HSPU',
-            weight: '225/165'
+            repScheme: 'Deadlifts - HSPU',
+            weight: '21-15-9'
         },
         finisher: {
             movement: '3rds - 8 Seated Z-press - 8 Eccentric Chin-ups'
@@ -557,7 +557,7 @@ const workouts = [
     {
         power: {
             movement: 'KB/DB Deadlifts',
-            repScheme: '5x 12'
+            repScheme: '5x 15'
         },
         strength: {
             movement: 'Glute Ham Raises',
@@ -605,7 +605,7 @@ const workouts = [
     {
         power: {
             movement: 'Banded Back Squats',
-            repScheme: '5x 3 EMOM'
+            repScheme: '7x 3 EMOM'
         },
         strength: {
             movement: 'Back Squat Cluster',
@@ -618,12 +618,12 @@ const workouts = [
             repScheme2: '4x 12'
         },
         metcon: {
-            movement: 'Annie',
-            repScheme: 'Double-Unders - Sit-ups',
+            movement: 'BodyWeight Builder',
+            repScheme: 'Air Squats - TTB',
             weight: '50-40-30-20-10 reps/rounds for time'
         },
         finisher: {
-            movement: '5rds 20 Band Pull-Aparts - Max Time L-sit Holds'
+            movement: '5rds: 20 Band Pull-Aparts - Max Time L-sit Holds'
         }
     },
     {
@@ -671,7 +671,7 @@ const workouts = [
             weight: '5rds for time'
         },
         finisher: {
-            movement: 'Accumulate 200 donkey kicks ea side'
+            movement: 'Accumulate 200 donkey kicks each side'
         }
     },
     {
@@ -695,7 +695,7 @@ const workouts = [
             weight: '20min AMRAP'
         },
         finisher: {
-            movement: '5rds 6 Reverse Hypers - 8 Biceps of choice'
+            movement: '5rds: 6 Reverse Hypers - 8 Biceps of choice'
         }
     },
     {
@@ -708,7 +708,7 @@ const workouts = [
             repScheme: '15-12-9-12-15'
         },
         superSet: {
-            movement1: 'DB/KB Snatch to Rev Lunge',
+            movement1: 'DB/KB Snatch to Reverse Lunge',
             repScheme1: '3x 6ea',
             movement2: 'Floor Press',
             repScheme2: '4x 8'
@@ -724,8 +724,8 @@ const workouts = [
     },
     {
         power: {
-            movement: 'SA KB Complex (Russian Swing, American Swing, Snatch = 1)',
-            repScheme: '4x 6ea'
+            movement: 'KB Complex (Russian Swing, American Swing, Snatch)',
+            repScheme: '4x 6 Snatches each side'
         },
         strength: {
             movement: 'Full Turkish Get-ups',
@@ -744,6 +744,150 @@ const workouts = [
         },
         finisher: {
             movement: 'KB Flutter Kicks x 500'
+        }
+    },
+    {
+        power: {
+            movement: 'Bench Press',
+            repScheme: '4x 9'
+        },
+        strength: {
+            movement: 'Incline DB Press',
+            repScheme: '15-12-9-12-15'
+        },
+        superSet: {
+            movement1: 'Dips',
+            repScheme1: '3x 9',
+            movement2: 'SA Banded Flys',
+            repScheme2: '4x 15ea'
+        },
+        metcon: {
+            movement: 'Rider',
+            repScheme: 'Cal Bike - Pushups - Vups',
+            weight: '27-21-15-9 - rest as needed'
+        },
+        finisher: {
+            movement: '50-60 Lying DB Tricep Extentions'
+        }
+    },
+    {
+        power: {
+            movement: 'Underhand Strict Shoulder Press',
+            repScheme: '4x 12'
+        },
+        strength: {
+            movement: 'Deadlifts',
+            repScheme: '4x 8'
+        },
+        superSet: {
+            movement1: 'Standing Alt DB Press (left, right, together = 1)',
+            repScheme1: '3x 8',
+            movement2: 'Walking Lunges',
+            repScheme2: '3x 20 steps'
+        },
+        metcon: {
+            movement: 'On You',
+            repScheme: 'OH Walking Lunges - DB Box Shoulders (light weight)',
+            weight: '21-15-12-9 - rest as needed'
+        },
+        finisher: {
+            movement: '3x: 30 Kneeling Band Hip Hinges - 30 Band RDLs'
+        }
+    },
+    {
+        power: {
+            movement: 'BB Bent Over Row',
+            repScheme: '4x 10-12'
+        },
+        strength: {
+            movement: 'Chest Supported Row',
+            repScheme: '15-12-9-12-15'
+        },
+        superSet: {
+            movement1: 'Seated Low Cable/Band Row',
+            repScheme1: '4x 15',
+            movement2: 'Shrugs',
+            repScheme2: '4x 20'
+        },
+        metcon: {
+            movement: 'Gun Show',
+            repScheme: 'Barbell Curl - Wrist Curls - Reverse Curls',
+            weight: '18-14-9-5'
+        },
+        finisher: {
+            movement: 'max time bar/ring holds'
+        }
+    },
+    {
+        power: {
+            movement: 'Incline DB Flys',
+            repScheme: '15-12-9'
+        },
+        strength: {
+            movement: 'DB Flys',
+            repScheme: '15-12-9'
+        },
+        superSet: {
+            movement1: 'Band/Cable Crossover',
+            repScheme1: '15-12-9',
+            movement2: 'OH DB Extensions',
+            repScheme2: '3x 12'
+        },
+        metcon: {
+            movement: 'Ab Complex',
+            repScheme: 'Crunches - Heel Touches - Standing Cable/Band Oblique Crunches',
+            weight: '4x 30ea'
+        },
+        finisher: {
+            movement: 'Tabata Pushup Plank Holds - 10rds'
+        }
+    },
+    {
+        power: {
+            movement: 'Zercher Squats',
+            repScheme: '4x 8'
+        },
+        strength: {
+            movement: 'Plate/DB Lateral High Raises',
+            repScheme: '4x 12'
+        },
+        superSet: {
+            movement1: 'Leg Extensions',
+            repScheme1: '4x 15',
+            movement2: 'DB Bent Over Front + Lateral Raises',
+            repScheme2: '4x 10'
+        },
+        metcon: {
+            movement: 'Countdown',
+            repScheme: 'Skater Squat - Cossak Squat - 15 sec Runs',
+            weight: 'Reps - 15,14,13...1'
+        },
+        finisher: {
+            movement: '40ea Side Plank DB External Rotations'
+        }
+    },
+    {
+        power: {
+            movement: 'Sumo Deadlifts',
+            repScheme: '4x 8'
+        },
+        strength: {
+            movement: 'Lat Pulldowns',
+            repScheme: '4x 10'
+        },
+        superSet: {
+            movement1: 'Toe Elevated SL RDLs',
+            repScheme1: '3x 8ea',
+            movement2: 'Reverse Grip Lat Pulldowns',
+            repScheme2: '3x 15'
+        },
+        metcon: {
+            movement: 'Evan',
+            repScheme: '400m Run - 30 DB/KB DLs - 30 Pullups',
+            weight: '5rds'
+        },
+        finisher: {
+            movement: '3x 20ea Shugs - Bicep Curl of Choice'
         }
     }
 
