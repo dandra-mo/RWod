@@ -29,6 +29,7 @@ const timeFormatter = (ms, format) => {
 
 export default function App() {
   const [rWod, setRwod] = useState(getRWod()) 
+  
   const { time, setTime, setPlay, play } = useTimer()
   const newRwod = () => setRwod(getRWod()) 
   // const Rwod = getRWod()
