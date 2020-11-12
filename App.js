@@ -5,23 +5,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import WorkoutScreen from './workoutScreen';
 import Timer from './timerScreen';
+import { Ionicons }  from '@expo/vector-icons'
 
 
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home!</Text>
-    </View>
-  );
-}
 
-function SettingsScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Settings!</Text>
-    </View>
-  );
-}
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -31,11 +18,30 @@ export default function App() {
   return (
   <NavigationContainer>
       <Tab.Navigator
-        initialRouteName="Workouts"
-        activeColor="#f0edf6"
-        inactiveColor="#3e2465"
-        barStyle={{ backgroundColor: '#694fad' }}
+      screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused, color, size }) => {
+            let iconName;
+
+            if (route.name === 'Workouts') {
+              iconName = focused
+                ? 'ios-fitness'
+                : 'ios-fitness';
+            } else if (route.name === 'Timer') {
+              iconName = focused 
+              ? 'ios-stopwatch' 
+              : 'ios-stopwatch';
+            }
+
+            // You can return any component that you like here!
+            return <Ionicons name={iconName} size={size} color={color} />;
+          },
+        })}
+        tabBarOptions={{
+          activeTintColor: '#f0edf6',
+          inactiveTintColor: '#3e2465',
+        }}
       >
+
         <Tab.Screen name="Workouts" component={WorkoutScreen} />
         <Tab.Screen name="Timer" component={Timer} />
        
@@ -46,11 +52,4 @@ export default function App() {
  );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#000000',
-    alignItems: 'center',
-    justifyContent: 'center',  
-  },  
-});
+

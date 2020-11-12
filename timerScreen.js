@@ -3,6 +3,7 @@ import { Text, View, Button, StyleSheet } from 'react-native'
 import { useTimer } from './utils/timer'
 import FAB from 'react-native-fab'
 
+
 const timeFormatter = (ms, format) => {
   const constant = 3600000
   let hr = Math.floor(ms / constant)
