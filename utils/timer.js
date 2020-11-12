@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 
 export const useTimer = () => {
     const [ time, setTime ] = useState(0)
-    const [ play, setPlay ] = useState(false) 
+    const [ play, setPlay ] = useState(false)
+     
     useEffect(() => {
         let id
         if (play) {

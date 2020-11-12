@@ -330,7 +330,7 @@ const workouts = [
             repScheme2: '3x6'
         },
         metcon: {
-            movement: '8 KB Cleans - 12 TTB - 50ft HandStand Walks',
+            movement: 'The Cleaner',
             repScheme: '8 KB Cleans - 12 TTB - 50ft HandStand Walks',
             weight: '5min AMRAP / 3min off / 5min AMRAP / 3min off / 5min AMRAP'
         },
