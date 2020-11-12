@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
-import { Text, View, StyleSheet, ScrollView, Button } from 'react-native';
+import { Text, View, StyleSheet, ScrollView, Button, TouchableOpacity } from 'react-native';
 import getRWod  from './Workouts'
+import FAB from 'react-native-fab'
+import { Feather } from '@expo/vector-icons';
 
 const workoutScreen = () => {
     const [rWod, setRwod] = useState(getRWod()) 
@@ -9,13 +11,14 @@ const workoutScreen = () => {
     return (
     <View style={styles.container}>
       <View>
-        
-        <View style={styles.inner}>
-          <View style={styles.title}>
+        <View style={styles.title}>
             <Text style={styles.text}>Today's Wod</Text>
-          </View>
+        </View>
+      </View>
 
 
+    <View style={styles.inner}>
+      <ScrollView>
           <View style={styles.one}>
             <View style={styles.power}>
               <Text style={styles.heading}>Power</Text>
@@ -57,26 +60,29 @@ const workoutScreen = () => {
             <Text style={styles.heading}>Finisher</Text>
             <Text style={styles.text}>{rWod.finisher.movement}</Text>
           </View>
-         </View>         
-        </View>
-      </View>
-
-      <View style={styles.shuffle}>
-          <Button
-          onPress={newRwod}
-          title='Shuffle'
-          color='black'
-          accessibilityLabel='Shuffle workouts to get new one'
-          />
-      </View>
-    </View>
-
+        </View>       
+     </ScrollView>
+   </View> 
+   <FAB 
+                    buttonColor="#8fbc8f" 
+                    iconTextColor="#FFFFFF"
+                    onClickAction={newRwod} 
+                    visible={true} 
+                    iconTextComponent={<Feather name="shuffle" size={24} color="black" />}
+                    />
+</View>
     )
 }
 
 
 
 const styles = StyleSheet.create({
+container: {
+    flex: 1,
+    backgroundColor: '#000000',
+    alignItems: 'center',
+    justifyContent: 'center',  
+  },
 inner: {
     flex: 1,
     flexDirection: 'column',
@@ -94,7 +100,6 @@ title: {
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 10,
-    marginBottom: 10,
     marginLeft: 10,
     padding: 20
   },
@@ -138,7 +143,7 @@ finisher: {
     marginTop: 10,
     marginLeft: 10,
     padding: 15,
-    paddingBottom: 250,
+    paddingBottom: 20,
   },
 
 heading: {
@@ -166,14 +171,10 @@ one: {
     shadowColor: "#8fbc8f"
   },
 shuffle: {
-    position: 'absolute',
-    bottom: 0,
-    left: 5,
-    right: 5,
-    backgroundColor: 'black',
+    backgroundColor: '#DDDDDD',
     opacity: .7,
-    alignSelf: 'stretch',
-    height: 200,
+    alignSelf: 'center',
+    padding: 10,
   }
 })
 

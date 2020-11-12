@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Button, ScrollView, StyleSheet, Text, View, StatusBar } from 'react-native';
 import getRWod from './Workouts';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
@@ -40,7 +40,8 @@ export default function App() {
         <Tab.Screen name="Timer" component={Timer} />
        
       </Tab.Navigator>
-    </NavigationContainer>
+    <StatusBar />
+  </NavigationContainer>
  
  );
 }

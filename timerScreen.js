@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Text, View, Button, StyleSheet } from 'react-native'
 import { useTimer } from './utils/timer'
+import FAB from 'react-native-fab'
 
 const timeFormatter = (ms, format) => {
   const constant = 3600000
@@ -30,7 +31,7 @@ export default function Timer() {
   const { time, setTime, setPlay, play } = useTimer()
 
     return (
-    <View>
+    <View style={styles.container}>
         <Button
           onPress={() => setTime(0)}
           title='Reset'
@@ -44,16 +45,37 @@ export default function Timer() {
         <View>
           <Text style={styles.timer}>{timeFormatter(time)}</Text>
         </View>
+
+        <View style={styles.timerFab}>
+            <FAB 
+                buttonColor="#8fbc8f" 
+                iconTextColor="#FFFFFF" 
+                visible={true}     
+                />
+        </View>
       </View>
     )
 }
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'black'
+    },
     timer: {
         fontSize: 80,
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        color: 'white'
+        color: 'white',
+        backgroundColor: 'black'
+  },
+  timerFab: {
+      position: 'absolute',
+      bottom: 20,
+      left: 5,
+      right: 0
   }
 })
